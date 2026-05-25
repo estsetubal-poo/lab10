@@ -2,10 +2,6 @@
 
 ## Preparação
 
-Antes de iniciar o laboratório, devem fazer download do projeto base:  
-**Projeto Base – Testes Unitários**  
-GitHub: *(link a definir pelo docente)*
-
 O projeto inclui:
 
 - `ClassGroup`
