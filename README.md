@@ -16,7 +16,7 @@ Pretende-se desenvolver um conjunto completo de **testes unitários** para a cla
 Todos os testes devem seguir boas práticas:
 
 ### ✔ Regras obrigatórias
-- Deve criar uma classe de teste `GrouClassTest` na diretoria `test`.
+- A classe de teste denomina-se  `ClassGroupTest` e encontra-se na  diretoria `src/teste/java/org.example`.
 - **Cada caso de teste deve ser implementado num método de teste separado.**
 - **Deve existir um método `@BeforeEach` chamado `setup()`**, responsável por:
     - Criar uma turma (`ClassGroup`)
