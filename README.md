@@ -16,13 +16,14 @@ Pretende-se desenvolver um conjunto completo de **testes unitários** para a cla
 Todos os testes devem seguir boas práticas:
 
 ### ✔ Regras obrigatórias
+- Deve criar uma classe de teste `GrouClassTest` na diretoria `test`.
 - **Cada caso de teste deve ser implementado num método de teste separado.**
 - **Deve existir um método `@BeforeEach` chamado `setup()`**, responsável por:
     - Criar uma turma (`ClassGroup`)
     - Criar pelo menos **8 estudantes**
     - Adicioná‑los à turma antes de cada teste
 
-Exemplo obrigatório (a completar pelo aluno):
+- Deve ter como método de `setup` o seguinte
 
 ```java
 private ClassGroup group;
